@@ -185,6 +185,8 @@ This project utilizes the following Web APIs:
 1. `navigator.mediaDevices.getDisplayMedia()`: Used to capture the screen for recording.
 2. `MediaRecorder`: Used to record the screen capture stream.
 3. `URL.createObjectURL()`: Used to create a URL for the recorded video blob.
+4. `@ffmpeg/ffmpeg`: Used to convert WebM video to MP4 format in the browser.
+5. `@ffmpeg/util`: Provides utility functions for working with ffmpeg.wasm.
 
 ## 7. Running the Application
 
